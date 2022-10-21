@@ -1,4 +1,5 @@
 
+
 function initMap(){
 
   let boolean=false;
@@ -32,7 +33,7 @@ function initMap(){
     
 
     const svgIcon={
-      url: '/img/location.png',
+      url: './img/location.png',
      // size: new google.maps.Size(17,17),
      // origin: new google.maps.Point(10, 10),
       anchor: new google.maps.Point(17, 54),
@@ -41,13 +42,13 @@ function initMap(){
 
     const nextIcons=[
       {
-        url: '/img/1024px-Saburtalo,_Tbilisi.jpg',
+        url: './img/1024px-Saburtalo,_Tbilisi.jpg',
         anchor: new google.maps.Point(17, 54),
         scaledSize: new google.maps.Size(35, 35),
       },
 
       {
-        url: '/img/Vake_District,_Tbilisi,_Georgia.jpg',
+        url: './img/Vake_District,_Tbilisi,_Georgia.jpg',
         anchor: new google.maps.Point(17, 54),
         scaledSize: new google.maps.Size(35, 35),
       },
